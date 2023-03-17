@@ -61,7 +61,7 @@ public class SecondFragment extends Fragment {
                     notificationChannel.setDescription(
                             "Description");
                     notificationChannel.setLightColor(
-                            Color.RED);
+                            Color.GREEN);
                     notificationChannel.enableLights(true);
                     notificationChannel.setVibrationPattern(
                             new long[]{0,1000,500,1000});
@@ -73,8 +73,8 @@ public class SecondFragment extends Fragment {
                             NotificationCompat.Builder(
                             getActivity().getApplicationContext(),
                             NOTIFICATION_CHANEL_ID)
-                            .setContentTitle("Minha Notificação")
-                            .setContentText("Minha primeira notificação")
+                            .setContentTitle("Book In The Library")
+                            .setContentText("Sua compra foi finalizada")
                             .setSmallIcon(R.drawable.ic_launcher_background)
                             .setPriority(NotificationCompat.PRIORITY_HIGH)
                             .setCategory(NotificationCompat.CATEGORY_MESSAGE)
