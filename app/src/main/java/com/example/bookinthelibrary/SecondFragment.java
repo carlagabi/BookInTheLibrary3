@@ -63,7 +63,7 @@ public class SecondFragment extends Fragment {
                             .setPriority(NotificationCompat.PRIORITY_HIGH)
                             .setCategory(NotificationCompat.CATEGORY_MESSAGE)
                             .setContentIntent(pendingIntent);
-                            //.setAutoCancel(true);
+                            //.setAutoCancel(true);;
                     notificationManager.notify(0001, builder.build());
                 }
             }
