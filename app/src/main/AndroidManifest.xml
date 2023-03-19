@@ -7,7 +7,7 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/_9850925_d331_4bab_a238_6d7899292c0d"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookInTheLibrary"
