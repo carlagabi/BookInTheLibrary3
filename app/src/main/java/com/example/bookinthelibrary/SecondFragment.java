@@ -59,7 +59,7 @@ public class SecondFragment extends Fragment {
                     NotificationCompat.Builder builder = new NotificationCompat.Builder(getActivity().getApplicationContext(), NOTIFICATION_CHANEL_ID)
                             .setContentTitle("Book In The Library")
                             .setContentText("Sua compra foi finalizada com sucesso!")
-                            .setSmallIcon(R.drawable.ic_launcher_background)
+                            .setSmallIcon(R.drawable._9850925_d331_4bab_a238_6d7899292c0d)
                             .setPriority(NotificationCompat.PRIORITY_HIGH)
                             .setCategory(NotificationCompat.CATEGORY_MESSAGE)
                             .setContentIntent(pendingIntent);
